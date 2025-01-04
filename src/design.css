@@ -1,0 +1,563 @@
+/* Josué 1.9: “Não fui eu que lhe ordenei? Seja forte e corajoso! Não te apavores nem desanimes, pois o Senhor, o Teu Deus, estará contigo por onde quer que andares.”*/
+
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=League+Spartan:wght@100..900&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Press+Start+2P&family=Rubik:ital,wght@0,300..900;1,300..900&family=Sulphur+Point:wght@300;400;700&family=Teachers:ital,wght@0,400..800;1,400..800&family=Zen+Dots&display=swap');
+
+
+
+/* - - - - - - Bases - - - - - - - -*/
+
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #101010;
+
+}
+
+
+.bodyTwo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #0A0E08;
+
+}
+
+
+main {
+    width: 375px;
+    background-color: #101010;
+    border-radius: 5px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+}
+
+
+
+.mainTwo {
+    width: 375px;
+    background-color: #0A0E08;
+    border-radius: 5px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+h2 {
+    font-size: 10px;
+    font-weight: 500;
+    color: white;
+    font-family: "Archivo", serif;
+}
+
+p {
+    font-size: 0.25rem;
+    color: white;
+    font-family: "Archivo", serif;
+    font-weight: 100;
+}
+
+
+ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2px;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+
+/* - - - - - - Hearder - - - - - - - -*/
+
+header {
+    height: 51px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.back {
+    width: 25px;
+    cursor: pointer;
+}
+
+.headerTwo {
+    height: 51px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+
+}
+
+
+.avaliaçãoTwo {
+    z-index: 2;
+
+    margin-bottom: 15px;
+}
+
+.headerInfo {
+    height: 51px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 120px;
+    z-index: 2;
+}
+
+.avaliaçãoTwo {
+    font-size: 6px;
+    transform: translate(0px, -9px);
+}
+
+.brand {
+    width: 20px;
+}
+
+
+
+
+/* - - - - - - section 1 - - - - - - - -*/
+
+
+
+.one {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.heroBuyImg {
+    width: 375px;
+    height: 320px;
+    transform: translate(0px, -60px);
+    z-index: 0;
+}
+
+
+.imgHero {
+    width: 350px;
+}
+
+
+aside {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 13px;
+    gap: 8px;
+}
+
+
+
+
+.option {
+    width: 111px;
+    height: 30px;
+    border: solid 2px #68AC54;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.optionTwo {
+    width: 111px;
+    height: 30px;
+    border: solid 2px #ffffff;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.textOption {
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.bools {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 3px;
+    margin-top: 9px;
+}
+
+.boolsTwo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 3px;
+    margin-top: 9px;
+    transform: translate(0px, -120px);
+}
+
+
+.pont {
+    width: 4px;
+    height: 4px;
+    background-color: aliceblue;
+    border-radius: 50px;
+}
+
+
+.miniPont {
+    width: 2.5px;
+    height: 3px;
+    background-color: aliceblue;
+    border-radius: 50px;
+}
+
+
+
+
+
+.infoBuy {
+
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    gap: 80px;
+    transform: translate(-10px, 250px);
+
+}
+
+
+.name {
+    color: white;
+    font-size: 17px;
+    font-weight: 700;
+    color: white;
+    font-family: "Archivo", serif;
+    margin-bottom: 6px;
+}
+
+.infoName {
+    color: white;
+    font-size: 8px;
+    font-weight: 300;
+    color: white;
+    font-family: "Archivo", serif;
+    margin-bottom: 6px;
+}
+
+.more {
+    color: white;
+    font-size: 8px;
+    font-weight: 600;
+    color: white;
+    font-family: "Archivo", serif;
+
+}
+
+.pay {
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
+    font-family: "Archivo", serif;
+}
+
+
+.buy {
+    width: 100px;
+    height: 34px;
+    border-radius: 8px;
+    background-color: #1BCC44;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    transform: translate(0px, -20px);
+    cursor: pointer;
+
+}
+
+.ButtomBuy {
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: "Archivo", serif;
+}
+
+.off {
+    position: absolute;
+    width: 35px;
+    height: 260px;
+    border-radius: 20px;
+    background-color: #1BCC44;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 4;
+
+    display: none;
+
+
+
+    transition: ease-in-out;
+
+}
+
+
+
+.on {
+
+    position: absolute;
+
+    width: 335px;
+    height: 560px;
+    border-radius: 20px;
+    background-color: #0A0E08;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    z-index: 4;
+    transition: ease-in-out;
+    box-shadow: 0px 0px 70px 70px #9a9a9a35;
+
+}
+
+
+.headBuy {
+    display: flex;
+    flex-direction: row;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: "Archivo", serif;
+    gap: 50px;
+    padding-right: 65px;
+    margin-top: 40px;
+   
+}
+
+.h1Info {
+    padding-top: 15px;
+    color: #80D176;
+}
+
+
+.buyInfo {
+    width: 300px;
+    height: 52px;
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+    
+}
+
+
+.pBuy {
+    font-size: 15px;
+    font-weight: 200;
+    font-family: "Archivo", serif;
+    margin-left: 10px;
+    color: #80D176;
+}
+
+
+.inputBuy {
+    width: 275px;
+    height: 28px;
+    border-radius: 50px;
+    border: solid 2px #80D176;
+    margin-top: 2px;
+    font-size: 0.8rem;
+    color: white;
+    font-family: "Archivo", serif;
+    font-weight: 100;
+    padding-left: 10px;
+
+}
+
+
+.endBuy {
+    width: 275px;
+    height: 65px;
+    background-color: #2ECA1A;
+    border: none;
+    border-radius: 15px;
+    position: absolute;
+    transform: translate(0px, 450px);
+
+}
+
+
+
+.concluido {
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: "Archivo", serif;
+    cursor: pointer;
+}
+
+/* - - - - - - section 2 - - - - - - - -*/
+
+
+.frame {
+
+    cursor: pointer;
+}
+
+
+.two {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.qa {
+    height: 45px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 14px;
+
+}
+
+input {
+    width: 273px;
+    height: 17px;
+    border-radius: 10px;
+    border: none;
+    background-color: transparent;
+    color: white;
+    font-family: "Archivo", serif;
+}
+
+
+
+
+.lineqa {
+    width: 273px;
+    border: solid 1.5px #68AC54;
+
+}
+
+
+
+
+.produto {
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    overflow: hidden;
+    margin: 10px 0px;
+    box-sizing: border-box;
+    width: 341px;
+
+}
+
+
+.prodBox {
+    width: 171px;
+    height: 106px;
+    overflow: hidden;
+
+}
+
+.imgProd {
+    width: 171px;
+}
+
+
+.prodInfo {
+    width: 170px;
+    height: 106px;
+    background: transparent;
+    padding-top: 15px;
+    padding-left: 16px;
+
+}
+
+.hrSpace {
+    border: solid 1px #2C4824;
+}
+
+.pri {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 18px;
+}
+
+.seg {
+    max-width: 106px;
+}
+
+.favorito {
+    z-index: 2;
+    position: absolute;
+    transform: translate(130px, 0px);
+}
+
+.ter {
+    margin-top: 10px;
+}
+
+
+.terTwo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+
+.imgStar {
+    width: 8.4px;
+}
+
+.qua {
+    transform: translate(10px, -10px);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 45px;
+}
+
+.preço {
+    font-size: 13px;
+    font-weight: 400;
+    color: white;
+    font-family: "Archivo", serif;
+    padding-bottom: 10px;
+}

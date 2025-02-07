@@ -108,6 +108,13 @@ header {
     cursor: pointer;
 }
 
+
+.backBuy {
+    width: 25px;
+    cursor: pointer;
+    transform: translate(20px, 0px);
+}
+
 .headerTwo {
     height: 51px;
     display: flex;
@@ -995,11 +1002,16 @@ input {
     gap: 40px; 
     transition: ease-in-out;
     box-shadow: 0px 0px 770px 770px #ffffff43;
-    transform: translate(230px, 50px);
+    transform: translate(24vw, 50px);
     z-index: 2;
 
 }
 
 
+.backBuy {
+    width: 25px;
+    cursor: pointer;
+    transform: translate(-50px, 0px);
+}
 
 }

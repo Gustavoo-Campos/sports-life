@@ -50,7 +50,7 @@ main {
     width: 375px;
     background-color: #0A0E08;
     border-radius: 5px;
-    
+
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -139,7 +139,7 @@ header {
     align-items: center;
     gap: 120px;
     z-index: 2;
-   
+
 }
 
 .avaliaçãoTwo {
@@ -196,7 +196,7 @@ header {
     align-items: center;
     gap: 330px;
     transform: translate(0px, -20px);
-    
+
 }
 
 
@@ -211,7 +211,7 @@ header {
     align-items: center;
     gap: 330px;
     transform: translate(0px, -20px);
-    
+
 }
 
 
@@ -228,7 +228,7 @@ header {
     align-items: center;
     gap: 330px;
     transform: translate(0px, -20px);
-    
+
 }
 
 
@@ -259,7 +259,7 @@ aside {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    
+
 }
 
 
@@ -272,7 +272,7 @@ aside {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-   
+
 
 }
 
@@ -324,10 +324,10 @@ aside {
 
 
 .heroInfoProd {
-   
+
     width: 98vw;
     height: 150px;
-    transform: translate( 0px, 60px);
+    transform: translate(0px, 60px);
     margin: auto;
 }
 
@@ -388,7 +388,7 @@ aside {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    transform: translate(150px, -20px);
+    transform: translate(140px, -20px);
     cursor: pointer;
 
 }
@@ -500,7 +500,7 @@ aside {
 
 
 
-.divi{
+.divi {
     display: none;
 }
 
@@ -517,7 +517,7 @@ aside {
 
 
 .two {
-   
+
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -633,7 +633,7 @@ input {
     flex-direction: row;
     align-items: center;
     gap: 45px;
-    
+
 }
 
 .preço {
@@ -647,16 +647,15 @@ input {
 
 
 .list {
-    
-        display: flex;
-        flex-flow: column wrap;
-        justify-content: center;
-        align-items: center;
-        gap: 5px;
-    
-    
-    }
-    
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+
+}
+
 
 
 
@@ -740,6 +739,7 @@ input {
 
     /* - - - - - - - - - - - Tela 1 - - - - - - - - - - - - */
 
+
     .plus {
         width: 18vw;
         height: 100vh;
@@ -796,7 +796,7 @@ input {
 
     }
 
-    
+
 
 
 
@@ -807,7 +807,7 @@ input {
         gap: 10px;
         height: 820px;
     }
-    
+
 
     .qa {
         display: none;
@@ -845,11 +845,9 @@ input {
         height: 100vh;
         padding: 0px 55px;
         display: flex;
-        flex-flow: column;
+        flex-flow: column nowrap;
         align-items: center;
         overflow-x: hidden;
-
-
 
 
     }
@@ -882,11 +880,11 @@ input {
 
 
     .list {
-
-        flex-flow: row wrap;
         gap: 30px;
-
+        background-color: #116925;
+     
     }
+
 
 
 
@@ -899,7 +897,7 @@ input {
 
 
 
-.mainTwo {
+    .mainTwo {
         width: 100vw;
         background-color: #101010;
         display: flex;
@@ -910,135 +908,135 @@ input {
 
 
 
-    
-.oneProd {
- 
-   
-    width: 70vw;
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: flex-start;
-    gap: 3vw;
-    height: 320px;
-    margin: 10px 0px 100px 0px;
-  
-}
 
-.headerInfo {
-    gap: 140px;
-   
-    transform: translate( -10px, -10px);
-   
-}
+    .oneProd {
 
 
-.heroBuyImgBase {
-    width: 35vw;
-    height: 46vh;
-    border-radius: 20px;
-}
+        width: 70vw;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: flex-start;
+        gap: 3vw;
+        height: 320px;
+        margin: 10px 0px 100px 0px;
+
+    }
+
+    .headerInfo {
+        gap: 140px;
+
+        transform: translate(-10px, -10px);
+
+    }
 
 
-
-.heroProd{
-    margin: 40px 0px 85px 0px;
-}
+    .heroBuyImgBase {
+        width: 35vw;
+        height: 46vh;
+        border-radius: 20px;
+    }
 
 
 
-.asideCompra {
-    display: block;
-    display: flex;
-    flex-flow: row;
-    gap: 10px;
-    margin-top: 40px;
-}
+    .heroProd {
+        margin: 40px 0px 85px 0px;
+    }
 
 
 
-
-.back {
-    width: 35px;
-    cursor: pointer;
-    position: relative;
-    transform: translate( -6.5vw, 0px);
-    
-}
-
-
-
-.heroInfoProd{
-
-   transform: translate( 20px, 50px);
- 
-}
+    .asideCompra {
+        display: block;
+        display: flex;
+        flex-flow: row;
+        gap: 10px;
+        margin-top: 40px;
+    }
 
 
 
 
-.infoBuy {
+    .back {
+        width: 35px;
+        cursor: pointer;
+        position: relative;
+        transform: translate(-6.5vw, 0px);
 
-    display: flex;
-    flex-direction: row;
-    position: absolute;
-    gap: 80px;
-    transform: translate(50px, -80px);
-    
-}
+    }
 
-.two {
-    width: 380px; 
-   
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: center;
-    transform: translate(35px, 10px);
 
-}
+
+    .heroInfoProd {
+
+        transform: translate(20px, 50px);
+
+    }
 
 
 
 
+    .infoBuy {
 
-.buy {    
-    transform: translate(170px, 5px);
+        display: flex;
+        flex-direction: row;
+        position: absolute;
+        gap: 80px;
+        transform: translate(50px, -80px);
 
-}
+    }
 
+    .two {
+        width: 380px;
 
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: center;
+        transform: translate(35px, 10px);
 
-.divi{
-    width: 65vw;
-    border: solid 1px #116925;
-    transform: translate( -10px, -20px);
-}
-
-
-
-
-.on {
-
-    position: absolute;
-    width: 840px;
-    height: 640px;
-    border-radius: 20px;
-    background-color: #0A0E08;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 40px; 
-    transition: ease-in-out;
-    box-shadow: 0px 0px 770px 770px #ffffff43;
-    transform: translate(24vw, 50px);
-    z-index: 2;
-
-}
+    }
 
 
-.backBuy {
-    width: 25px;
-    cursor: pointer;
-    transform: translate(-50px, 0px);
-}
+
+
+
+    .buy {
+        transform: translate(170px, 5px);
+
+    }
+
+
+
+    .divi {
+        width: 65vw;
+        border: solid 1px #116925;
+        transform: translate(-10px, -20px);
+    }
+
+
+
+
+    .on {
+
+        position: absolute;
+        width: 840px;
+        height: 640px;
+        border-radius: 20px;
+        background-color: #0A0E08;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+        transition: ease-in-out;
+        box-shadow: 0px 0px 770px 770px #ffffff43;
+        transform: translate(24vw, 50px);
+        z-index: 2;
+
+    }
+
+
+    .backBuy {
+        width: 25px;
+        cursor: pointer;
+        transform: translate(-50px, 0px);
+    }
 
 }

@@ -37,11 +37,11 @@ main {
     width: 375px;
     background-color: #101010;
     border-radius: 5px;
-    overflow: hidden;
+
     display: flex;
     flex-direction: column;
     align-items: center;
-    overflow: hidden;
+
 }
 
 
@@ -50,7 +50,7 @@ main {
     width: 375px;
     background-color: #0A0E08;
     border-radius: 5px;
-    overflow: hidden;
+    
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -94,11 +94,12 @@ a {
 /* - - - - - - Hearder - - - - - - - -*/
 
 header {
+
     height: 51px;
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    flex-flow: column nowrap;
     justify-content: center;
+    align-items: center;
 
 }
 
@@ -113,7 +114,7 @@ header {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-top: 10px;
+    margin-top: 20px;
 
 }
 
@@ -131,6 +132,7 @@ header {
     align-items: center;
     gap: 120px;
     z-index: 2;
+   
 }
 
 .avaliaçãoTwo {
@@ -145,6 +147,14 @@ header {
 
 
 
+.qaTop {
+    display: none;
+
+}
+
+
+
+
 /* - - - - - - section 1 - - - - - - - -*/
 
 
@@ -153,14 +163,69 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
+    height: 290px;
 }
 
-.heroBuyImg {
-    width: 375px;
-    height: 320px;
-    transform: translate(0px, -60px);
-    z-index: 0;
+
+.hero {
+    width: 88vw;
+    height: 230px;
+    background-image: url(img/hero2x.png);
+    background-position: center center;
+    background-size: cover;
+    border-radius: 15px;
 }
+
+
+
+.heroBuyImgBFA {
+    width: 100vw;
+    height: 320px;
+    z-index: 0;
+    background-image: url(img/prodBool.png);
+    background-size: cover;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    gap: 330px;
+    transform: translate(0px, -20px);
+    
+}
+
+
+.heroBuyImgCesta {
+    width: 100vw;
+    height: 320px;
+    z-index: 0;
+    background-image: url(img/cesta.png);
+    background-size: cover;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    gap: 330px;
+    transform: translate(0px, -20px);
+    
+}
+
+
+
+
+.heroBuyImgBasebool {
+    width: 100vw;
+    height: 320px;
+    z-index: 0;
+    background-image: url(img/basebol.png);
+    background-size: cover;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    gap: 330px;
+    transform: translate(0px, -20px);
+    
+}
+
+
+
 
 
 .imgHero {
@@ -174,9 +239,8 @@ aside {
     align-items: center;
     margin-bottom: 13px;
     gap: 8px;
+
 }
-
-
 
 
 .option {
@@ -188,6 +252,7 @@ aside {
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    
 }
 
 
@@ -200,12 +265,22 @@ aside {
     flex-direction: row;
     align-items: center;
     justify-content: center;
+   
+
 }
 
 .textOption {
     font-size: 12px;
     font-weight: 400;
 }
+
+
+.textOptionP {
+    display: none;
+}
+
+
+
 
 .bools {
     display: flex;
@@ -241,7 +316,12 @@ aside {
 }
 
 
-
+.heroInfoProd{
+   
+    width: 400px;
+    height: 150px;
+    transform: translate(  0px, 60px);
+}
 
 
 .infoBuy {
@@ -250,7 +330,7 @@ aside {
     flex-direction: row;
     position: absolute;
     gap: 80px;
-    transform: translate(-10px, 250px);
+    transform: translate(30px, -80px);
 
 }
 
@@ -300,7 +380,7 @@ aside {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    transform: translate(0px, -20px);
+    transform: translate(150px, -20px);
     cursor: pointer;
 
 }
@@ -313,22 +393,7 @@ aside {
 }
 
 .off {
-    position: absolute;
-    width: 35px;
-    height: 260px;
-    border-radius: 20px;
-    background-color: #1BCC44;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    z-index: 4;
-
     display: none;
-
-
-
-    transition: ease-in-out;
-
 }
 
 
@@ -336,7 +401,6 @@ aside {
 .on {
 
     position: absolute;
-
     width: 335px;
     height: 560px;
     border-radius: 20px;
@@ -346,9 +410,8 @@ aside {
     align-items: center;
     gap: 40px;
     z-index: 4;
-    transition: ease-in-out;
     box-shadow: 0px 0px 70px 70px #9a9a9a35;
-
+    transform: translate(30px, -360px);
 }
 
 
@@ -361,7 +424,7 @@ aside {
     gap: 50px;
     padding-right: 65px;
     margin-top: 40px;
-   
+
 }
 
 .h1Info {
@@ -377,8 +440,8 @@ aside {
     display: flex;
     flex-direction: column;
     align-items: center;
-   
-    
+
+
 }
 
 
@@ -427,12 +490,13 @@ aside {
     cursor: pointer;
 }
 
-/* - - - - - - section 2 - - - - - - - -*/
+/* - - - - - - - - - - - section 2 - - - - - - - - - - - -*/
 
 
 .frame {
 
     cursor: pointer;
+
 }
 
 
@@ -455,7 +519,8 @@ aside {
 input {
     width: 273px;
     height: 17px;
-    border-radius: 10px;
+    border-radius: 6px;
+    padding-left: 10px;
     border: none;
     background-color: transparent;
     color: white;
@@ -524,9 +589,8 @@ input {
 }
 
 .favorito {
-    z-index: 2;
-    position: absolute;
-    transform: translate(130px, 0px);
+    z-index: 1;
+
 }
 
 .ter {
@@ -552,6 +616,7 @@ input {
     flex-direction: row;
     align-items: center;
     gap: 45px;
+    
 }
 
 .preço {
@@ -560,4 +625,373 @@ input {
     color: white;
     font-family: "Archivo", serif;
     padding-bottom: 10px;
+}
+
+
+.list {
+
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* - - - - - - - - - - - @media screen - - - - - - - - - - - - */
+
+@media screen and (min-width:1200px) {
+
+
+    /* - - - - - - - - - - - Tela 1 - - - - - - - - - - - - */
+
+    .plus {
+        width: 18vw;
+        height: 100vh;
+        background-image: linear-gradient(60deg, #68AC54, #116925);
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+
+
+    .optionP {
+
+        width: 111px;
+        height: 30px;
+        border: solid 2px #ffffff;
+        border-radius: 50px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+
+    .textOptionP {
+        display: block;
+        font-size: 12px;
+        font-weight: 400;
+    }
+
+
+
+    main {
+        width: 100vw;
+        background-color: #101010;
+        display: flex;
+        flex-flow: row nowrap;
+        align-items: self-start;
+        overflow: hidden;
+    }
+
+
+
+    header {
+
+        height: 100px;
+        padding: 20px 0px 0px 0px;
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    
+
+
+
+    .one {
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        gap: 10px;
+        height: 820px;
+    }
+    
+
+    .qa {
+        display: none;
+    }
+
+
+
+
+    .qaTop {
+
+        width: 532px;
+        height: 45px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 14px;
+        margin: 0px 0px 20px 0px;
+    }
+
+    input {
+        width: 532px;
+    }
+
+    .linqa {
+        width: 532px;
+        border: solid 1.5px #68AC54;
+
+    }
+
+
+
+    .conteudo {
+
+        width: 82vw;
+        height: 100vh;
+        padding: 0px 55px;
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        overflow-x: hidden;
+
+
+
+
+    }
+
+
+    aside {
+        display: none;
+    }
+
+
+
+
+    .hero {
+
+
+        width: 73vw;
+        background-image: url(img/heroPlus.png);
+        background-position: center bottom;
+        background-size: cover;
+        border-radius: 15px;
+
+    }
+
+
+
+
+    .bools {
+        margin-bottom: 55px;
+    }
+
+
+    .list {
+
+        flex-flow: row wrap;
+        gap: 30px;
+
+    }
+
+
+
+
+    /* - - - - - - - - - - - Telas Produtos - - - - - - - - - - - - */
+
+
+
+
+
+
+
+.mainTwo {
+        width: 100vw;
+        background-color: #101010;
+        display: flex;
+        flex-flow: row nowrap;
+        align-items: self-start;
+        overflow: hidden;
+    }
+
+
+
+    
+.oneProd {
+ 
+   
+    width: 70vw;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    gap: 3vw;
+    height: 320px;
+    margin: 10px 0px 100px 0px;
+  
+}
+
+.headerInfo {
+    gap: 140px;
+   
+    transform: translate( -10px, -10px);
+   
+}
+
+
+.heroBuyImgBase {
+    width: 35vw;
+    height: 46vh;
+    border-radius: 20px;
+}
+
+
+
+.heroProd{
+    margin: 40px 0px 85px 0px;
+}
+
+
+
+.asideCompra {
+    display: block;
+    display: flex;
+    flex-flow: row;
+    gap: 10px;
+    margin-top: 40px;
+}
+
+
+
+
+.back {
+    width: 35px;
+    cursor: pointer;
+    position: relative;
+    transform: translate( -6.5vw, 0px);
+    
+}
+
+
+
+.heroInfoProd{
+
+   transform: translate( 20px, 150px);
+}
+
+
+
+
+.buy {    
+    transform: translate(150px, 5px);
+
+}
+
+
+
+.divi{
+    width: 65vw;
+    border: solid 1px #116925;
+    transform: translate( -10px, -20px);
+}
+
+
+
+
+.on {
+
+    position: absolute;
+    width: 840px;
+    height: 640px;
+    border-radius: 20px;
+    background-color: #0A0E08;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px; 
+    transition: ease-in-out;
+    box-shadow: 0px 0px 770px 770px #ffffff43;
+    transform: translate(-580px, -150px);
+    z-index: 2;
+
+}
+
+
+
 }

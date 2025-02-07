@@ -862,7 +862,6 @@ input {
 
     .hero {
 
-
         width: 73vw;
         background-image: url(img/heroPlus.png);
         background-position: center bottom;
@@ -881,8 +880,8 @@ input {
 
     .list {
         gap: 30px;
-       
-     
+
+
     }
 
 

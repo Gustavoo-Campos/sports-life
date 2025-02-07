@@ -14,7 +14,6 @@
     box-sizing: border-box;
 }
 
-
 body {
     display: flex;
     flex-direction: column;
@@ -22,7 +21,6 @@ body {
     background-color: #101010;
 
 }
-
 
 .bodyTwo {
     display: flex;
@@ -32,30 +30,23 @@ body {
 
 }
 
-
 main {
     width: 375px;
     background-color: #101010;
     border-radius: 5px;
-
     display: flex;
     flex-direction: column;
     align-items: center;
-
 }
-
-
 
 .mainTwo {
     width: 375px;
     background-color: #0A0E08;
     border-radius: 5px;
-
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-
 
 
 h2 {
@@ -71,7 +62,6 @@ p {
     font-family: "Archivo", serif;
     font-weight: 100;
 }
-
 
 ul {
     display: flex;
@@ -89,18 +79,14 @@ a {
 }
 
 
-
-
 /* - - - - - - Hearder - - - - - - - -*/
 
 header {
-
     height: 51px;
     display: flex;
     flex-flow: column nowrap;
     justify-content: center;
     align-items: center;
-
 }
 
 .back {
@@ -125,10 +111,8 @@ header {
 
 }
 
-
 .avaliaçãoTwo {
     z-index: 2;
-
     margin-bottom: 15px;
 }
 
@@ -151,19 +135,12 @@ header {
     width: 20px;
 }
 
-
-
-
 .qaTop {
     display: none;
-
 }
 
 
-
-
 /* - - - - - - section 1 - - - - - - - -*/
-
 
 
 .one {
@@ -173,7 +150,6 @@ header {
     height: 290px;
 }
 
-
 .hero {
     width: 88vw;
     height: 230px;
@@ -182,8 +158,6 @@ header {
     background-size: cover;
     border-radius: 15px;
 }
-
-
 
 .heroBuyImgBFA {
     width: 100vw;
@@ -196,9 +170,7 @@ header {
     align-items: center;
     gap: 330px;
     transform: translate(0px, -20px);
-
 }
-
 
 .heroBuyImgCesta {
     width: 100vw;
@@ -211,11 +183,7 @@ header {
     align-items: center;
     gap: 330px;
     transform: translate(0px, -20px);
-
 }
-
-
-
 
 .heroBuyImgBasebool {
     width: 100vw;
@@ -231,14 +199,9 @@ header {
 
 }
 
-
-
-
-
 .imgHero {
     width: 350px;
 }
-
 
 aside {
     display: flex;
@@ -246,9 +209,7 @@ aside {
     align-items: center;
     margin-bottom: 13px;
     gap: 8px;
-
 }
-
 
 .option {
     width: 111px;
@@ -262,7 +223,6 @@ aside {
 
 }
 
-
 .optionTwo {
     width: 111px;
     height: 30px;
@@ -273,7 +233,6 @@ aside {
     align-items: center;
     justify-content: center;
 
-
 }
 
 .textOption {
@@ -281,13 +240,9 @@ aside {
     font-weight: 400;
 }
 
-
 .textOptionP {
     display: none;
 }
-
-
-
 
 .bools {
     display: flex;
@@ -306,14 +261,12 @@ aside {
     transform: translate(0px, -120px);
 }
 
-
 .pont {
     width: 4px;
     height: 4px;
     background-color: aliceblue;
     border-radius: 50px;
 }
-
 
 .miniPont {
     width: 2.5px;
@@ -322,7 +275,6 @@ aside {
     border-radius: 50px;
 }
 
-
 .heroInfoProd {
 
     width: 98vw;
@@ -330,7 +282,6 @@ aside {
     transform: translate(0px, 60px);
     margin: auto;
 }
-
 
 .infoBuy {
 
@@ -341,7 +292,6 @@ aside {
     transform: translate(30px, -80px);
 
 }
-
 
 .name {
     color: white;
@@ -378,7 +328,6 @@ aside {
     font-family: "Archivo", serif;
 }
 
-
 .buy {
     width: 100px;
     height: 34px;
@@ -390,7 +339,6 @@ aside {
     justify-content: center;
     transform: translate(140px, -20px);
     cursor: pointer;
-
 }
 
 .ButtomBuy {
@@ -403,8 +351,6 @@ aside {
 .off {
     display: none;
 }
-
-
 
 .on {
 
@@ -421,7 +367,6 @@ aside {
     box-shadow: 0px 0px 70px 70px #9a9a9a35;
     transform: translate(0px, 70px);
 }
-
 
 .headBuy {
     display: flex;
@@ -440,7 +385,6 @@ aside {
     color: #80D176;
 }
 
-
 .buyInfo {
     width: 300px;
     height: 52px;
@@ -448,10 +392,7 @@ aside {
     display: flex;
     flex-direction: column;
     align-items: center;
-
-
 }
-
 
 .pBuy {
     font-size: 15px;
@@ -460,7 +401,6 @@ aside {
     margin-left: 10px;
     color: #80D176;
 }
-
 
 .inputBuy {
     width: 275px;
@@ -476,7 +416,6 @@ aside {
 
 }
 
-
 .endBuy {
     width: 275px;
     height: 65px;
@@ -488,8 +427,6 @@ aside {
 
 }
 
-
-
 .concluido {
     color: white;
     font-size: 20px;
@@ -498,16 +435,12 @@ aside {
     cursor: pointer;
 }
 
-
-
 .divi {
     display: none;
 }
 
 
-
 /* - - - - - - - - - - - section 2 - - - - - - - - - - - -*/
-
 
 .frame {
 
@@ -515,14 +448,12 @@ aside {
 
 }
 
-
 .two {
 
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-
 
 .qa {
     height: 45px;
@@ -544,17 +475,11 @@ input {
     font-family: "Archivo", serif;
 }
 
-
-
-
 .lineqa {
     width: 273px;
     border: solid 1.5px #68AC54;
 
 }
-
-
-
 
 .produto {
     border-radius: 15px;
@@ -568,18 +493,15 @@ input {
 
 }
 
-
 .prodBox {
     width: 171px;
     height: 106px;
     overflow: hidden;
-
 }
 
 .imgProd {
     width: 171px;
 }
-
 
 .prodInfo {
     width: 170px;
@@ -614,14 +536,12 @@ input {
     margin-top: 10px;
 }
 
-
 .terTwo {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-bottom: 10px;
 }
-
 
 .imgStar {
     width: 8.4px;
@@ -643,8 +563,6 @@ input {
     font-family: "Archivo", serif;
     padding-bottom: 10px;
 }
-
-
 
 .list {
 
@@ -722,23 +640,12 @@ input {
 
 
 
-
-
-
-
-
-
-
-
-
-
 /* - - - - - - - - - - - @media screen - - - - - - - - - - - - */
 
 @media screen and (min-width:1200px) {
 
 
     /* - - - - - - - - - - - Tela 1 - - - - - - - - - - - - */
-
 
     .plus {
         width: 18vw;
@@ -749,8 +656,6 @@ input {
         justify-content: space-evenly;
         align-items: center;
     }
-
-
 
     .optionP {
 
@@ -764,15 +669,11 @@ input {
         justify-content: center;
     }
 
-
-
     .textOptionP {
         display: block;
         font-size: 12px;
         font-weight: 400;
     }
-
-
 
     main {
         width: 100vw;
@@ -783,8 +684,6 @@ input {
         overflow: hidden;
     }
 
-
-
     header {
 
         height: 100px;
@@ -793,12 +692,7 @@ input {
         flex-flow: column nowrap;
         justify-content: center;
         align-items: center;
-
     }
-
-
-
-
 
     .one {
         display: flex;
@@ -808,13 +702,9 @@ input {
         height: 820px;
     }
 
-
     .qa {
         display: none;
     }
-
-
-
 
     .qaTop {
 
@@ -834,13 +724,9 @@ input {
     .linqa {
         width: 532px;
         border: solid 1.5px #68AC54;
-
     }
 
-
-
     .conteudo {
-
         width: 82vw;
         height: 100vh;
         padding: 0px 55px;
@@ -849,19 +735,13 @@ input {
         align-items: center;
         overflow-x: hidden;
 
-
     }
-
 
     aside {
         display: none;
     }
 
-
-
-
     .hero {
-
         width: 73vw;
         background-image: url(img/heroPlus.png);
         background-position: center bottom;
@@ -870,30 +750,17 @@ input {
 
     }
 
-
-
-
     .bools {
         margin-bottom: 55px;
     }
 
-
     .list {
-        gap: 30px;
-        background-color: transparent;
-
+        gap: 30px;       
     }
-
-
-
-
+    
+    
 
     /* - - - - - - - - - - - Telas Produtos - - - - - - - - - - - - */
-
-
-
-
-
 
 
     .mainTwo {
@@ -905,12 +772,7 @@ input {
         overflow: hidden;
     }
 
-
-
-
     .oneProd {
-
-
         width: 70vw;
         display: flex;
         flex-flow: row nowrap;
@@ -918,16 +780,12 @@ input {
         gap: 3vw;
         height: 320px;
         margin: 10px 0px 100px 0px;
-
     }
 
     .headerInfo {
         gap: 140px;
-
         transform: translate(-10px, -10px);
-
     }
-
 
     .heroBuyImgBase {
         width: 35vw;
@@ -935,13 +793,9 @@ input {
         border-radius: 20px;
     }
 
-
-
     .heroProd {
         margin: 40px 0px 85px 0px;
     }
-
-
 
     .asideCompra {
         display: block;
@@ -951,27 +805,18 @@ input {
         margin-top: 40px;
     }
 
-
-
-
     .back {
         width: 35px;
         cursor: pointer;
         position: relative;
         transform: translate(-6.5vw, 0px);
-
     }
-
-
 
     .heroInfoProd {
 
         transform: translate(20px, 50px);
 
     }
-
-
-
 
     .infoBuy {
 
@@ -993,25 +838,16 @@ input {
 
     }
 
-
-
-
-
     .buy {
         transform: translate(170px, 5px);
 
     }
-
-
 
     .divi {
         width: 65vw;
         border: solid 1px #116925;
         transform: translate(-10px, -20px);
     }
-
-
-
 
     .on {
 
@@ -1031,11 +867,10 @@ input {
 
     }
 
-
     .backBuy {
         width: 25px;
         cursor: pointer;
         transform: translate(-50px, 0px);
     }
 
-}
+}  

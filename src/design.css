@@ -969,14 +969,39 @@ input {
 
 .heroInfoProd{
 
-   transform: translate( 20px, 150px);
+   transform: translate( 20px, 50px);
+ 
 }
 
 
 
 
+.infoBuy {
+
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    gap: 80px;
+    transform: translate(50px, -80px);
+    
+}
+
+.two {
+    width: 380px; 
+   
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    transform: translate(35px, 10px);
+
+}
+
+
+
+
+
 .buy {    
-    transform: translate(150px, 5px);
+    transform: translate(170px, 5px);
 
 }
 

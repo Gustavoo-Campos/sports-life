@@ -323,8 +323,8 @@ aside {
 }
 
 
-.heroInfoProd{
- 
+.heroInfoProd {
+    background-color: transparent;
     width: 98vw;
     height: 150px;
     transform: translate( 0px, 60px);

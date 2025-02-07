@@ -411,7 +411,7 @@ aside {
     gap: 40px;
     z-index: 4;
     box-shadow: 0px 0px 70px 70px #9a9a9a35;
-    transform: translate(30px, -360px);
+    transform: translate(0px, 70px);
 }
 
 
@@ -489,6 +489,14 @@ aside {
     font-family: "Archivo", serif;
     cursor: pointer;
 }
+
+
+
+.divi{
+    display: none;
+}
+
+
 
 /* - - - - - - - - - - - section 2 - - - - - - - - - - - -*/
 
@@ -987,7 +995,7 @@ input {
     gap: 40px; 
     transition: ease-in-out;
     box-shadow: 0px 0px 770px 770px #ffffff43;
-    transform: translate(-580px, -150px);
+    transform: translate(230px, 50px);
     z-index: 2;
 
 }

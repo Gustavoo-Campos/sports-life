@@ -18,7 +18,7 @@
  
 
 
- [~ ABRIR PROJETO ~](https://gustavoo-campos.github.io/sports-life/)
+ [ ABRIR PROJETO ](https://gustavoo-campos.github.io/sports-life/)
   
 
 

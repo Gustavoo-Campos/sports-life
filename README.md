@@ -15,7 +15,7 @@
 </a>
 
  [Abrir site](https://gustavoo-campos.github.io/sports-life/)
- 
+ <!--
 ## ☕ Sumário
 
 - [🛠️ Estrutura](#)
@@ -23,7 +23,7 @@
 - [📋 Logística](#)
 - [💻 Autor](#)
 
-
+-->
 
 
 

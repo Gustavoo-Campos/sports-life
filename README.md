@@ -1,7 +1,7 @@
 # Sports-Life
 
 <div align="center">
-<img src="https://github.com/Gustavoo-Campos/master/blob/main/src/img/streaming.png">
+<img src="https://github.com/Gustavoo-Campos/sports-life/blob/main/src/img/sport.png">
 </div>
 
 
@@ -9,14 +9,16 @@
  ## Descrição
  
 <p>
- Esse é um projeto que sempre recebe atualizações, podendo mudar de design, de contexto, de logística, etc.
+ Esse é um projeto de uma loja de produtos esportivos.
  <ul>
-
 <li>
-   A ideia inicial é ser um site de streaming onde há asinaturas, cartezes de filmes, etc.
+ A logística: 1° o site possui uma área para o dono acessar o estoque. | 2° a área principal é a vitrine da loja onde são feitos os pedidos. | 3° e por fim uma página para acompanhar o envio.  
 </li>
 <li>
-   Todo o projeto é fictício, apenas com o intúito de colocar em prática os conhecimetos adquiridos. 
+  O design:  A família tipográfica escolhida foi {"Sulphur Point"}. A paleta de cores foi {"verde-#2ECA1A", "azul-#1B99CC"}.
+</li>
+<li>
+  O código: Todo o código foi desenvolvido utilizando { HTML - CSS - JAVASCRIPT }.  
 </li> 
  </ul>
  
